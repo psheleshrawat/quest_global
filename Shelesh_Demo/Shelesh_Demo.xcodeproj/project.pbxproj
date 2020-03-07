@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041EBFE62410D72600F9C08A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EBFE52410D72600F9C08A /* AppDelegate.swift */; };
+		041EBFE82410D72600F9C08A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EBFE72410D72600F9C08A /* SceneDelegate.swift */; };
+		041EBFEA2410D72600F9C08A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EBFE92410D72600F9C08A /* ViewController.swift */; };
+		041EBFED2410D72600F9C08A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041EBFEB2410D72600F9C08A /* Main.storyboard */; };
+		041EBFEF2410D72E00F9C08A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041EBFEE2410D72E00F9C08A /* Assets.xcassets */; };
+		041EBFF22410D72E00F9C08A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041EBFF02410D72E00F9C08A /* LaunchScreen.storyboard */; };
+		041EBFFB2410D97600F9C08A /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EBFFA2410D97600F9C08A /* SharedData.swift */; };
+		041EBFFD2411059800F9C08A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041EBFFC2411059800F9C08A /* DetailsViewController.swift */; };
+		D41C15089B79445B287173D8 /* Pods_Shelesh_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E5B8DF144D29C2BB4AB84E /* Pods_Shelesh_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041EBFE22410D72500F9C08A /* Shelesh_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shelesh_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041EBFE52410D72600F9C08A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		041EBFE72410D72600F9C08A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		041EBFE92410D72600F9C08A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		041EBFEC2410D72600F9C08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041EBFEE2410D72E00F9C08A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		041EBFF12410D72E00F9C08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		041EBFF32410D72E00F9C08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041EBFFA2410D97600F9C08A /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+		041EBFFC2411059800F9C08A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		06E5B8DF144D29C2BB4AB84E /* Pods_Shelesh_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shelesh_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		566AADE2FF3C4FBB52A52B2A /* Pods-Shelesh_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shelesh_Demo.debug.xcconfig"; path = "Target Support Files/Pods-Shelesh_Demo/Pods-Shelesh_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		8EF5D4E1BB240F0C4E958E21 /* Pods-Shelesh_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shelesh_Demo.release.xcconfig"; path = "Target Support Files/Pods-Shelesh_Demo/Pods-Shelesh_Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		041EBFDF2410D72500F9C08A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D41C15089B79445B287173D8 /* Pods_Shelesh_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041EBFD92410D72500F9C08A = {
+			isa = PBXGroup;
+			children = (
+				041EBFE42410D72600F9C08A /* Shelesh_Demo */,
+				041EBFE32410D72500F9C08A /* Products */,
+				217BAA04650C7C7DAAB36BB7 /* Pods */,
+				F474BE6351CC20CAD2203A10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		041EBFE32410D72500F9C08A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041EBFE22410D72500F9C08A /* Shelesh_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041EBFE42410D72600F9C08A /* Shelesh_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				041EBFF92410D94000F9C08A /* Classes */,
+				041EBFE52410D72600F9C08A /* AppDelegate.swift */,
+				041EBFE72410D72600F9C08A /* SceneDelegate.swift */,
+				041EBFE92410D72600F9C08A /* ViewController.swift */,
+				041EBFEB2410D72600F9C08A /* Main.storyboard */,
+				041EBFEE2410D72E00F9C08A /* Assets.xcassets */,
+				041EBFF02410D72E00F9C08A /* LaunchScreen.storyboard */,
+				041EBFF32410D72E00F9C08A /* Info.plist */,
+				041EBFFC2411059800F9C08A /* DetailsViewController.swift */,
+			);
+			path = Shelesh_Demo;
+			sourceTree = "<group>";
+		};
+		041EBFF92410D94000F9C08A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				041EBFFA2410D97600F9C08A /* SharedData.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		217BAA04650C7C7DAAB36BB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				566AADE2FF3C4FBB52A52B2A /* Pods-Shelesh_Demo.debug.xcconfig */,
+				8EF5D4E1BB240F0C4E958E21 /* Pods-Shelesh_Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F474BE6351CC20CAD2203A10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06E5B8DF144D29C2BB4AB84E /* Pods_Shelesh_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		041EBFE12410D72500F9C08A /* Shelesh_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041EBFF62410D72E00F9C08A /* Build configuration list for PBXNativeTarget "Shelesh_Demo" */;
+			buildPhases = (
+				25271E2DC4CE4195242E832B /* [CP] Check Pods Manifest.lock */,
+				041EBFDE2410D72500F9C08A /* Sources */,
+				041EBFDF2410D72500F9C08A /* Frameworks */,
+				041EBFE02410D72500F9C08A /* Resources */,
+				9CD5B86EB538ECD06560D176 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shelesh_Demo;
+			productName = Shelesh_Demo;
+			productReference = 041EBFE22410D72500F9C08A /* Shelesh_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041EBFDA2410D72500F9C08A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = SheleshR;
+				TargetAttributes = {
+					041EBFE12410D72500F9C08A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 041EBFDD2410D72500F9C08A /* Build configuration list for PBXProject "Shelesh_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041EBFD92410D72500F9C08A;
+			productRefGroup = 041EBFE32410D72500F9C08A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				041EBFE12410D72500F9C08A /* Shelesh_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		041EBFE02410D72500F9C08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041EBFF22410D72E00F9C08A /* LaunchScreen.storyboard in Resources */,
+				041EBFEF2410D72E00F9C08A /* Assets.xcassets in Resources */,
+				041EBFED2410D72600F9C08A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25271E2DC4CE4195242E832B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shelesh_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CD5B86EB538ECD06560D176 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shelesh_Demo/Pods-Shelesh_Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shelesh_Demo/Pods-Shelesh_Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shelesh_Demo/Pods-Shelesh_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		041EBFDE2410D72500F9C08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041EBFFB2410D97600F9C08A /* SharedData.swift in Sources */,
+				041EBFEA2410D72600F9C08A /* ViewController.swift in Sources */,
+				041EBFE62410D72600F9C08A /* AppDelegate.swift in Sources */,
+				041EBFE82410D72600F9C08A /* SceneDelegate.swift in Sources */,
+				041EBFFD2411059800F9C08A /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		041EBFEB2410D72600F9C08A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041EBFEC2410D72600F9C08A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		041EBFF02410D72E00F9C08A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041EBFF12410D72E00F9C08A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041EBFF42410D72E00F9C08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		041EBFF52410D72E00F9C08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041EBFF72410D72E00F9C08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 566AADE2FF3C4FBB52A52B2A /* Pods-Shelesh_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Shelesh_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sheleshr.Shelesh-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		041EBFF82410D72E00F9C08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF5D4E1BB240F0C4E958E21 /* Pods-Shelesh_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Shelesh_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sheleshr.Shelesh-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		041EBFDD2410D72500F9C08A /* Build configuration list for PBXProject "Shelesh_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041EBFF42410D72E00F9C08A /* Debug */,
+				041EBFF52410D72E00F9C08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041EBFF62410D72E00F9C08A /* Build configuration list for PBXNativeTarget "Shelesh_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041EBFF72410D72E00F9C08A /* Debug */,
+				041EBFF82410D72E00F9C08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041EBFDA2410D72500F9C08A /* Project object */;
+}
