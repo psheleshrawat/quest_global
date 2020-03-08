@@ -76,8 +76,10 @@ class ViewController: UIViewController {
 //MARK: UISearchBarDelegate
 extension ViewController: UISearchBarDelegate{
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String){
-        if (searchText.isEmpty){
-            
+       
+        if(SharedData.shared.isReachable){
+            self.getCountries(text: searchText)
+        }else{
             let pref = UserDefaults.standard
             var ob1 = pref.object(forKey: "Countries") as? Data
             
@@ -95,9 +97,22 @@ extension ViewController: UISearchBarDelegate{
                     return
                 }
                 if (obj is [Dictionary<String,Any>]){
-                    if var ob = obj as? [Dictionary<String,Any>]
+                    if var ob = obj as? Array<Any> //[Dictionary<String,Any>]
                     {
-                        self.arrData = ob
+                        //self.arrData = ob
+                        //let filteredArray = ob.filter() { $0.nativeName  == "1" }
+                        
+                        let predicate = NSPredicate(format: "nativeName contains[c] %@", searchText)
+                        self.arrData = ob.filter({predicate.evaluate(with: $0) }) as! [Dictionary<String, Any>]
+                       // self.arrData = ob.filter{predicate.evaluate(with: ($0)} as! [Dictionary<String, Any>]
+                            self.tblView.reloadData()
+                     
+                        
+                        
+                        
+                        
+                        
+                        
                     }
                 }else{
                     self.arrData = []
@@ -106,9 +121,8 @@ extension ViewController: UISearchBarDelegate{
                 return
             }
         }
-        else{
-            self.getCountries(text: searchText)
-        }
+        
+ 
     }
 }
 //MARK: UITableViewDelegate, UITableViewDataSource
